@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>길따라남쪽</title>
+    <link rel="icon" type="image/png" sizes="32x42" href="./img/favicon.png">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+
+    <div><a class="menu" href="javascript:return false;"><img src="./img/Menu.png" alt=""></a></div>
+    <div id="header">
+        <div class="menu_box"></div>
+        <h1 class="logo"><a href="./index.html"><img src="./img/logo.png" alt=""></a></h1>
+        <ul class="header_icon">
+            <li><a href="javascript:return false;"><img src="./img/header_icon1.png" alt=""></a></li>
+            <li><a href="javascript:return false;"><img src="./img/header_icon2.png" alt=""></a></li>
+            <li><a href="javascript:return false;"><img src="./img/header_icon3.png" alt=""></a></li>
+        </ul>
+    </div>
+    <!-- header e -->
+    <div id="gnb_box">
+        <ul class="gnb">
+            <li><a href="#banner_wrap">길따라 남쪽</a>
+            <ul class="submenu">
+                <li><a href="#event_wrap">진행 중인 이벤트</a></li>
+            </ul></li>
+            <li><a href="#section1_wrap">부울경 한눈에</a></li>
+            <li><a href="#section2">맛따라 길따라</a>
+                <ul class="submenu">
+                    <li><a href="#box1">로컬 맛집 추천</a></li>
+                    <li><a href="#box2">감성 카페 지도</a></li>
+                    <li><a href="#box3">지역별 숙소 추천</a></li>
+                    <li><a href="#box4">진행 중인 지역 행사</a></li>
+                </ul></li>
+            <li><a href="#section3">길따라 여행코스</a></li>
+            <li><a href="#section4">커뮤니티</a></li>
+        </ul>
+    </div>
+    <!-- gnb e -->
+    <div id="lnb_box">
+        <div class="menu_close"><a href="#"><img src="./img/X.png" alt=""></a></div>
+        <ul class="lnb">
+            <li><a href="#header">길따라 남쪽</a></li>
+            <li><a href="#section1_wrap">부울경 한눈에</a></li>
+            <li><a href="#section2">맛따라 길따라</a></li>
+            <li><a href="#section3">길따라 여행코스</a></li>
+            <li><a href="#section4">커뮤니티</a></li>
+        </ul>
+        <div class="lnb_random">오늘은 <span>'울산'</span>여행 어때요?</div>
+    </div>
+    <!-- lnb e -->
+    <div id="banner_wrap">
+        <video autoplay muted loop playsinline id="banner_video">
+            <source src="./video/banner.mp4" type="video/mp4">
+        </video>
+    </div>
+    <!-- banner e-->
+    <div id="top">
+        <h1><a href="#banner_wrap"><img src="./img/top.png" alt=""></a></h1>
+    </div>
+    <!-- top e -->
+    <div id="event_wrap">
+        <!-- 전체박스  -->
+        <div id="event_inner">
+            <!-- 가운데 -->
+            <div id="event_img">
+                <img class="event_bg" src="./img/event_bg.png" alt="배경 이미지">
+            </div>
+            <!-- 왼쪽 이미지 박스 -->
+            <div id="event_slide">
+                <div #swiperRef="" class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><a href="javascript:return false;">
+                                <img src="./img/event1.png" alt="">
+                            </a></div>
+                        <div class="swiper-slide"><a href="javascript:return false;">
+                                <img src="./img/event2.png" alt="">
+                            </a></div>
+                        <div class="swiper-slide"><a href="javascript:return false;">
+                                <img src="./img/event3.png" alt="">
+                            </a></div>
+                        <div class="swiper-slide"><a href="javascript:return false;">
+                                <img src="./img/event4.png" alt="">
+                            </a></div>
+                        <div class="swiper-slide"><a href="javascript:return false;">
+                                <img src="./img/event5.png" alt="">
+                            </a></div>
+                        <div class="swiper-slide"><a href="javascript:return false;">
+                                <img src="./img/event1.png" alt="">
+                            </a></div>
+                        <div class="swiper-slide"><a href="javascript:return false;">
+                                <img src="./img/event2.png" alt="">
+                            </a></div>
+                        <div class="swiper-slide"><a href="javascript:return false;">
+                                <img src="./img/event3.png" alt="">
+                            </a></div>
+                        <div class="swiper-slide"><a href="javascript:return false;">
+                                <img src="./img/event4.png" alt="">
+                            </a></div>
+                        <div class="swiper-slide"><a href="javascript:return false;">
+                                <img src="./img/event5.png" alt="">
+                            </a></div>
+                        <div class="swiper-slide"><a href="javascript:return false;">
+                                <img src="./img/event1.png" alt="">
+                            </a></div>
+                        <div class="swiper-slide"><a href="javascript:return false;">
+                                <img src="./img/event2.png" alt="">
+                            </a></div>
+                        <div class="swiper-slide"><a href="javascript:return false;">
+                                <img src="./img/event3.png" alt="">
+                            </a></div>
+                        <div class="swiper-slide"><a href="javascript:return false;">
+                                <img src="./img/event4.png" alt="">
+                            </a></div>
+                        <div class="swiper-slide"><a href="javascript:return false;">
+                                <img src="./img/event5.png" alt="">
+                            </a></div>
+                    </div>
+                </div>
+            </div>
+            <!-- 슬라이드 -->
+            <div id="swiper_button_box">
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+            <!-- 버튼 -->
+        </div>
+        <!-- inner e -->
+    </div>
+    <!-- event e -->
+    <div id="section1_wrap">
+        <div id="section1">
+            <h1 class="title"><a href="javascript:return false;">부울경 한눈에</a></h1>
+            <ul class="s1">
+                <li><a href="javascript:return false;">
+                        <div>
+                            <h2>지역별로 찾기</h2>
+                            <p>지역별 매력을 한눈에 쏙!</p>
+                        </div>
+                    </a></li>
+                <li><a href="javascript:return false;">
+                        <div>
+                            <h2>테마별로 찾기</h2>
+                            <p>취향대로 고르는 맞춤 여행</p>
+                        </div>
+                    </a></li>
+                <li><a href="javascript:return false;">
+                        <div>
+                            <h2>SNS 핫플로 찾기</h2>
+                            <p>요즘 뜨는 그곳, 바로 여기!</p>
+                        </div>
+                    </a></li>
+                <li><a href="javascript:return false;">
+                        <div>
+                            <h2>이 달의 지역 찾기</h2>
+                            <p>이 계절, 꼭 가봐야 할 남쪽</p>
+                        </div>
+                    </a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- s1 e -->
+    <div id="section2">
+        <h1> <a href="javascript:return false;">맛따라 길따라</a></h1>
+        <div id="box1">
+            <h2 class="sub_title"><a href="javascript:return false;">로컬 맛집 추천 🍽</a></h2>
+            <ul class="food">
+                <li><a href="javascript:return false;"><img src="./img/food1.png" alt="">한식</a></li>
+                <li><a href="javascript:return false;"><img src="./img/food2.png" alt="">양식</a></li>
+                <li><a href="javascript:return false;"><img src="./img/food3.png" alt="">일식</a></li>
+                <li><a href="javascript:return false;"><img src="./img/food4.png" alt="">중식</a></li>
+                <li><a href="javascript:return false;"><img src="./img/food5.png" alt="">고기</a></li>
+                <li><a href="javascript:return false;"><img src="./img/food6.png" alt="">피자</a></li>
+            </ul>
+        </div>
+        <!-- box1 e -->
+        <div id="box2">
+            <h2 class="sub_title"><a href="javascript:return false;">감성 카페 지도 ☕</a></h2>            
+            <div class="cafe_wrap">
+                <h3>따뜻한 순간이 머무는 곳, 오늘의 카페를 소개합니다.</h3>
+                <div class="cafe_inner">
+                    <div class="cafe_map">
+                        <a href="javascript:return false;"><img src="./img/Map pin.png" alt=""></a>
+                        <div class="map"> <img src="./img/map.png" alt=""></div>
+                    </div>
+                    <!-- map e -->
+                    <div class="cafe_img">
+                        <a href="javascript:return false;"><img src="./img/cafe.png" alt=""></a>
+                    </div>
+                </div>
+                <!-- cafe inner -->
+                 <div class="cafe_box">
+                    <div class="cafe">
+                        <h4><span>오늘의 추천 카페 : </span>메종B 커피&베이커리</h4>
+                        <ul class="cafe_menu">
+                            <li>🗺️ 경남 진주시 판문동 181-4</li>
+                            <li>📞 Tel: 055-741-9900</li>
+                            <li>⏰ 매일 11:00 - 22:00</li>
+                            <li>🧑‍🤝‍🧑 단체 이용 가능</li>
+                            <li>🐶 애견동반 가능</li>
+                            <li>🚗 무료 주차 가능</li>
+                        </ul></div>
+                    <!-- cafe e -->
+                        <div class="cafe_text">
+                            <h5>진주, 오래된 감성에 머물다</h5>
+                            <p>진주시 판문동에 위치한 메종B 카페&베이커리는 고풍스러운 외관과 감성적인 인테리어로 SNS를 통해 입소문을 타며 ‘진주의 감성 명소’로 자리잡은 카페입니다. 
+                                넓은 창으로 부드러운 햇살이 들어오고,
+                                매일 직접 구운 베이커리와 깊은 원두 향이 공간을 채웁니다.
+                                특히 2층 창가 자리는 조용한 분위기를 선호하는 여행자에게 인기</p>
+                        </div>
+                        <a class="button" href="javascript:return false;">더 많은 카페 보러가기</a>
+                    </div>
+                    <!-- cafe_box e -->
+                    
+
+            </div>
+ 
+        </div>
+        <!-- box2 e -->
+     <div id="box3">
+        <h2 class="sub_title"><a href="javascript:return false;">지역별 숙소 추천 🌙</a></h2>
+        <div id="box3_slide_wrap">
+            <div class="box3_slide">
+                <ul>
+                    <li><a href="javascript:return false;"><img src="./img/box3_1.png" alt="슬라이드 이미지"></a></li>
+                    <li><a href="javascript:return false;"><img src="./img/box3_2.png" alt="슬라이드 이미지"></a></li>
+                    <li><a href="javascript:return false;"><img src="./img/box3_3.png" alt="슬라이드 이미지"></a></li>
+                    <li><a href="javascript:return false;"><img src="./img/box3_4.png" alt="슬라이드 이미지"></a></li>
+                    <li><a href="javascript:return false;"><img src="./img/box3_5.png" alt="슬라이드 이미지"></a></li>
+                    <li><a href="javascript:return false;"><img src="./img/box3_6.png" alt="슬라이드 이미지"></a></li>
+                    <li><a href="javascript:return false;"><img src="./img/box3_7.png" alt="슬라이드 이미지"></a></li>
+                    <li><a href="javascript:return false;"><img src="./img/box3_8.png" alt="슬라이드 이미지"></a></li>
+                    <li><a href="javascript:return false;"><img src="./img/box3_9.png" alt="슬라이드 이미지"></a></li>
+                    <li><a href="javascript:return false;"><img src="./img/box3_10.png" alt="슬라이드 이미지"></a></li>
+                </ul>
+                <ul>
+                    <li><a href="javascript:return false;"><img src="./img/box3_1.png" alt="슬라이드 이미지"></a></li>
+                    <li><a href="javascript:return false;"><img src="./img/box3_2.png" alt="슬라이드 이미지"></a></li>
+                    <li><a href="javascript:return false;"><img src="./img/box3_3.png" alt="슬라이드 이미지"></a></li>
+                    <li><a href="javascript:return false;"><img src="./img/box3_4.png" alt="슬라이드 이미지"></a></li>
+                    <li><a href="javascript:return false;"><img src="./img/box3_5.png" alt="슬라이드 이미지"></a></li>
+                    <li><a href="javascript:return false;"><img src="./img/box3_6.png" alt="슬라이드 이미지"></a></li>
+                    <li><a href="javascript:return false;"><img src="./img/box3_7.png" alt="슬라이드 이미지"></a></li>
+                    <li><a href="javascript:return false;"><img src="./img/box3_8.png" alt="슬라이드 이미지"></a></li>
+                    <li><a href="javascript:return false;"><img src="./img/box3_9.png" alt="슬라이드 이미지"></a></li>
+                    <li><a href="javascript:return false;"><img src="./img/box3_10.png" alt="슬라이드 이미지"></a></li>
+                </ul>
+            </div>
+            <!--slid_inner E--> 
+        </div>
+        <!--slide E-->
+        <div class="box3_inner">
+            <a class="button2" href="javascript:return false;">더 많은 숙소 보러가기</a></div>
+        </div>
+    <!-- box3 e -->
+    <div id="popup_wrap" style="display: none;">
+        <div id="popup_inner">
+          <img id="popup_img" src="" alt="확대 이미지" />
+        </div>
+      </div>
+      <!-- popup e -->
+      <div id="box4">
+  <h2 class="sub_title"><a href="javascript:return false;">진행 중인 지역 행사 🎵</a></h2>
+  <div id="sub_banner">
+    <div class="sb bg1">
+      <div class="text">
+        <h1>2569 부산연등회</h1>
+        <p>2025.04.18 ~ 2025.05.06
+            <br>부산광역시 부산진구 동성로112번길 121-1 송상현광장
+            </p>
+      </div>
+    </div>
+    <div class="sb bg2">
+      <div class="text">
+        <h1>해운대 모래축제</h1>
+        <p>2025.05.16 ~ 2025.05.19
+            <br>부산광역시 해운대구 해운대해변로 280 해운대 해수욕장
+        </p>
+      </div>
+    </div>
+    <div class="sb bg3">
+      <div class="text">
+        <h1>울산대공원 장미축제</h1>
+        <p>2025.05.21 ~ 2025.05.25
+            <br>울산광역시 남구 남부순환도로 377 
+        </p>
+      </div>
+    </div>
+    <div class="sb bg4">
+      <div class="text">
+        <h1>2025 통영 국가유산 야행</h1>
+        <p>달빛아래 만나는 통영
+        <br>2025. 5. 3.(토) ~ 5. 4.(일) 18:00~22:00
+    </p>
+      </div>
+    </div>
+  </div>
+     </div>
+     <!-- box4 e -->
+     </div>
+     <!-- s2 e -->
+     <div id="section3">
+        <div id="section3_wrap"></div>
+            <!-- 배경색 -->
+             <div id="section3_inner">
+            <h1 class="title"><a href="javascript:return false;">길따라 여행코스</a></h1>
+            <ul class="section3_box">
+                <li><a href="javascript:return false;">
+                        <h2>📍 지역별  코스 찾기</h2>
+                        <h3>부울경, 어디부터 가볼까?</h3>
+                        <p>각 지역 대표 코스를 한눈에 확인하세요.</p>
+                </a></li>
+                <li><a href="javascript:return false;">
+                        <h2>⏱ 1일/2일/3일 코스 찾기</h2>
+                        <h3>짧아도, 알차게!</h3>
+                        <p>1박? 당일치기? 가장 알맞은 코스까지!</p>
+                </a></li>
+                <li><a href="javascript:return false;">
+                        <h2>👣 여행 메이트별 추천 코스</h2>
+                        <h3>누구와 함께라도 괜찮아</h3>
+                        <p>함께 걷는 길, 혼자 모두를 위해서</p>
+                </a></li>
+                <li><a href="javascript:return false;">
+                        <h2>🚈 초보 여행자 추천 코스</h2>
+                        <h3>처음 떠나는 부울경 여행</h3>
+                        <p>여행 입문자에게 딱 맞춘 실속 코스!</p>
+                </a></li>
+            </ul>
+        </div>
+      </div>
+      <!-- s3 e -->
+      <div id="section4">
+        <h1 class="title"><a href="javascript:return false;">커뮤니티</a></h1>
+        <div id="contents_box">
+        <div id="contents">
+            <!-- 타이틀포함 자유게시판 전체박스 -->
+            <h2 class="contents_title">
+                <span>지금 남쪽은, 실시간 톡톡</span>
+                <a class="plus_icon" href="javascript:return false;">
+                  <img src="./img/plus.png" alt="">
+                </a>
+              </h2>
+            <ul class="poster1">
+                <!-- 자유게시판 전체박스 -->
+                <li>
+                    <div class="poster">
+                        <!-- 게시글 1개 -->
+                         <div class="poster_text">
+                            <!-- 왼쪽 텍스트박스 -->
+                        <div class="poster_title">
+                            <!-- 상단 -->
+                            <div class="title_left">
+                                <!-- 왼쪽 프로필 날짜 아이디 -->      
+                            <a href="javascript:return false;"><img src="./img/user1.png" alt=""></a>
+                            <div class="user">
+                                    <!-- id -->
+                            <h5><a href="javascript:return false;">cafe_luv</a></h5>
+                            <p>2025.04.25</p>
+                        </div>
+                          <!-- user e  -->
+                            </div>
+                            <!-- left e -->
+                             <div class="title_right">
+                                <!-- 댓글 좋아요 -->
+                                <a href="javascript:return false;" class="like">
+                                  <img src="./img/s4_icon1.png" alt=""> <span class="count" data-base="8">8</span>
+                                </a>
+                                <a href="javascript:return false;" class="comment">
+                                    <img class="icon_heart" src="./img/s4_icon2.png" alt=""> 
+                                    <span class="count" data-base="2">2</span>
+                                  </a>
+                              </div>
+                              <!-- 댓글좋아요 e -->
+                       </div>
+                       <!-- 상단 e -->
+                        <h3><a href="javascript:return false;">[질문] 이 카페 어디인지 아시는 분 계신가요?</a></h3>
+                        <h4><a href="javascript:return false;">
+                            인스타에서 우연히 봤는데 분위기가 너무 예쁜 거예요.
+                            인테리어랑 디저트 전부 맛있어 보이던데... 사진만 저장해놔
+                            서 위치를 못 찾겠어요ㅠ 혹시 아시는 분이나 가보신 분 있으
+                            신가요? 댓글...</a></h4>
+                         </div>
+                         <!-- 텍스트박스 e -->
+                          <div class="poster_img">
+                            <a href="javascript:return false;"><img src="./img/s4_img1.png" alt=""></a>
+                          </div>
+                          <!-- img e -->
+                    </div>
+                    <!-- 게시글1개 e -->
+                </li>
+                <!-- 1 e -->
+                <li>
+                    <div class="poster">
+                        <!-- 게시글 1개 -->
+                         <div class="poster_text">
+                            <!-- 왼쪽 텍스트박스 -->
+                        <div class="poster_title">
+                            <!-- 상단 -->
+                            <div class="title_left">
+                                <!-- 왼쪽 프로필 날짜 아이디 -->      
+                            <a href="javascript:return false;"><img src="./img/user2.png" alt=""></a>
+                            <div class="user">
+                                    <!-- id -->
+                            <h5><a href="javascript:return false;">wavemood</a></h5>
+                            <p>2025.04.24</p>
+                        </div>
+                          <!-- user e  -->
+                            </div>
+                            <!-- left e -->
+                            <div class="title_right">
+                                <!-- 댓글 좋아요 -->
+                                <a href="javascript:return false;" class="like">
+                                  <img src="./img/s4_icon1.png" alt=""> <span class="count" data-base="15">15</span>
+                                </a>
+                                <a href="javascript:return false;" class="comment">
+                                    <img class="icon_heart" src="./img/s4_icon2.png" alt=""> 
+                                    <span class="count" data-base="8">8</span>
+                                  </a>
+                              </div>
+                              <!-- 댓글좋아요 e -->
+                       </div>
+                       <!-- 상단 e -->
+                        <h3><a href="javascript:return false;">[질문] 커플여행으로 갈만한 숙소 추천해주세요!</a></h3>
+                        <h4><a href="javascript:return false;">
+                            다음 달에 커플 여행 가기로 했는데 인피니티풀 같은 수영장 
+                            있는 숙소 찾고 있어요! 부산, 거제, 남해 쪽 어디든 좋아요.
+                            예쁘고 조용한 곳이면 더더욱 환영이에요 😍
+                            뷰 좋은 숙소에서 사진도...</a></h4>
+                         </div>
+                         <!-- 텍스트박스 e -->
+                          <div class="poster_img">
+                            <a href="javascript:return false;"><img src="./img/s4_img2.png" alt=""></a>
+                          </div>
+                          <!-- img e -->
+                    </div>
+                    <!-- 게시글1개 e -->
+                </li>
+                <!-- 2 e -->
+            </ul>
+        </div>
+        <!-- 자유게시판 e -->
+        <div id="contents">
+            <!-- 타이틀포함 후기게시판 전체박스 -->
+            <h2 class="contents_title">
+                <span>나의 남쪽 여행 이야기</span>
+                <a class="plus_icon" href="javascript:return false;">
+                  <img src="./img/plus.png" alt="">
+                </a>
+              </h2>
+            <ul class="poster1">
+                <!-- 후기기게시판 전체박스 -->
+                <li>
+                    <div class="poster">
+                        <!-- 게시글 1개 -->
+                         <div class="poster_text">
+                            <!-- 왼쪽 텍스트박스 -->
+                        <div class="poster_title">
+                            <!-- 상단 -->
+                            <div class="title_left">
+                                <!-- 왼쪽 프로필 날짜 아이디 -->      
+                            <a href="javascript:return false;"><img src="./img/user3.png" alt=""></a>
+                            <div class="user">
+                                    <!-- id -->
+                            <h5><a href="javascript:return false;">sunsetholic</a></h5>
+                            <p>2025.04.27</p>
+                        </div>
+                          <!-- user e  -->
+                            </div>
+                            <!-- left e -->
+                             <div class="title_right">
+                                <!-- 댓글 좋아요 -->
+                                <a href="javascript:return false;" class="like">
+                                  <img src="./img/s4_icon1.png" alt=""> <span class="count" data-base="52">52</span>
+                                </a>
+                                <a href="javascript:return false;" class="comment">
+                                    <img class="icon_heart" src="./img/s4_icon2.png" alt=""> 
+                                    <span class="count" data-base="24">24</span>
+                                  </a>
+                              </div>
+                              <!-- 댓글좋아요 e -->
+                       </div>
+                       <!-- 상단 e -->
+                        <h3><a href="javascript:return false;">[부산] 가족여행으로 강추인 부산 요트 체험</a></h3>
+                        <h4><a href="javascript:return false;">
+                            가족여행으로 부산을 다녀왔는데 제일 기억에 남는게 요트 체
+                            험이네요. 특히 아이들이 너무 좋아했어요^^
+                            해운대에서 출발했는데 바람도 시원하고, 야경 보는 코스도 아
+                            름다웠습니다. 중간...
+                            </a></h4>
+                         </div>
+                         <!-- 텍스트박스 e -->
+                          <div class="poster_img">
+                            <a href="javascript:return false;"><img src="./img/s4_img3.png" alt=""></a>
+                          </div>
+                          <!-- img e -->
+                    </div>
+                    <!-- 게시글1개 e -->
+                </li>
+                <!-- 3 e -->
+                <li>
+                    <div class="poster">
+                        <!-- 게시글 1개 -->
+                         <div class="poster_text">
+                            <!-- 왼쪽 텍스트박스 -->
+                        <div class="poster_title">
+                            <!-- 상단 -->
+                            <div class="title_left">
+                                <!-- 왼쪽 프로필 날짜 아이디 -->      
+                            <a href="javascript:return false;"><img src="./img/user4.png" alt=""></a>
+                            <div class="user">
+                                    <!-- id -->
+                            <h5><a href="javascript:return false;">sea.view91</a></h5>
+                            <p>2025.04.23</p>
+                        </div>
+                          <!-- user e  -->
+                            </div>
+                            <!-- left e -->
+                            <div class="title_right">
+                                <!-- 댓글 좋아요 -->
+                                <a href="javascript:return false;" class="like">
+                                  <img src="./img/s4_icon1.png" alt=""> <span class="count" data-base="43">43</span>
+                                </a>
+                                <a href="javascript:return false;" class="comment">
+                                    <img class="icon_heart" src="./img/s4_icon2.png" alt=""> 
+                                    <span class="count" data-base="32">32</span>
+                                  </a>
+                              </div>
+                              <!-- 댓글좋아요 e -->
+                       </div>
+                       <!-- 상단 e -->
+                        <h3><a href="javascript:return false;">[통영] 케이블카 타고 정상 찍고 온 후기!</a></h3>
+                        <h4><a href="javascript:return false;">
+                            크~~정상에서 바다까지 보이는데 진짜 감탄 나옵니다.👍
+                            생각보다 줄도 빨리 빠지고, 케이블카 내부도 깨끗했어요!
+                            전망대 올라가서 바람 쐬니까 여행 온 느낌 제대로 났어요 ㅎ
+                            ㅎ 통영 방문...
+                            </a></h4>
+                         </div>
+                         <!-- 텍스트박스 e -->
+                          <div class="poster_img">
+                            <a href="javascript:return false;"><img src="./img/s4_img4.png" alt=""></a>
+                          </div>
+                          <!-- img e -->
+                    </div>
+                    <!-- 게시글1개 e -->
+                </li>
+                <!-- 4 e -->
+            </ul>
+        </div>
+        <!-- 후기게시판 e -->  
+        </div>
+        <!-- contentsbox e -->
+       </div>
+       <!-- s4 e -->
+     <div id="footer_wrap">
+        <!-- 배경색 테두리 -->
+         <div id="footer_inner">
+            <!-- 가운데 -->
+             <h1 class="f_logo"><a href="./index.html">
+                <img src="./img/f_logo.png" alt="">
+             </a></h1>
+             <div class="footer_box">
+                <ul>
+                    <li><a href="javascript:return false;">
+                        <img src="./img/sns1.png" alt="">
+                    </a></li>
+                    <li><a href="javascript:return false;">
+                        <img src="./img/sns2.png" alt="">
+                    </a></li>
+                    <li><a href="javascript:return false;">
+                        <img src="./img/sns3.png" alt="">
+                    </a></li>
+                    <li><a href="javascript:return false;">
+                        <img src="./img/sns4.png" alt="">
+                    </a></li>
+                </ul>
+                <h4>대표전화</h4>
+                <h3>1840</h3>
+             </div>
+         </div>
+     </div>
+     <!-- footer top e -->
+      <div id="footer_bg">
+        <!-- 배경 테두리 -->
+         <div class="footer_bottom">
+            <!-- 가운데 -->
+             <ul class="footer1">
+                <li><a href="javascript:return false;">개인정보처리방침</a></li>
+                <li><a href="javascript:return false;">이용약관</a></li>
+                <li><a href="javascript:return false;">위치기반서비스 이용약관</a></li>
+                <li><a href="javascript:return false;">저작권정책</a></li>
+                <li><a href="javascript:return false;">고객서비스 현장</a></li>
+                <li><a href="javascript:return false;">전자메일무단수집거부</a></li>
+                <li><a href="javascript:return false;">찾아오시는 길</a></li>
+             </ul>
+             <ul class="footer2">
+                <li><a href="javascript:return false;">우)26464 부산 동구 중앙대로 206</a></li>
+                <li><a href="javascript:return false;">이용약관</a></li>
+                <li><a href="javascript:return false;">위치기반서비스 이용약관</a></li>
+                <li><a href="javascript:return false;">저작권정책</a></li>
+             </ul>
+         </div>
+      </div>
+      <!-- footer e -->
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
+    <!-- 내가 꾸민 제이쿼리 -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            loop: true,
+            centeredSlides: true,
+            spaceBetween: 30,
+            breakpoints: {
+                0: {
+                    slidesPerView: 1,
+                },
+                600: {
+                    slidesPerView: 2,
+                },
+                1100: {
+                    slidesPerView: 3,
+                },
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+    <!-- event -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollTrigger.min.js"></script>
+    <script>
+        gsap.registerPlugin(ScrollTrigger);
+
+        gsap.utils.toArray(".s1 li").forEach((el, i) => {
+            gsap.to(el, {
+                scrollTrigger: {
+                    trigger: el,
+                    start: "top 90%",
+                    toggleActions: "play none none none"
+                },
+                duration: 0.8,
+                opacity: 1,
+                y: 0,
+                delay: i * 0.2,
+                ease: "power2.out"
+            });
+        });
+    </script>
+    <!-- s1 -->
+    <script>
+        gsap.registerPlugin(ScrollTrigger);
+        gsap.to("#section3_wrap", {
+            scrollTrigger: {
+                trigger: "#section3",
+                start: "top 80%",
+                toggleActions: "play none none none"
+            },
+            scaleY: 1,
+            duration: 1.8,
+            ease: "power2.out"
+        });
+    </script>
+    <!-- s3 배경 -->
+    <script>
+        gsap.registerPlugin(ScrollTrigger);
+        gsap.utils.toArray(".section3_box li").forEach((el, i) => {
+            gsap.to(el, {
+                scrollTrigger: {
+                    trigger: el,
+                    start: "top 90%",
+                    toggleActions: "play none none none"
+                },
+                opacity: 1,
+                y: 0,
+                delay: i * 0.1,
+                duration: 0.6,
+                ease: "power2.out"
+            });
+        });
+    </script>
+    <!-- s3 li -->
+    <script>
+        $(function () {
+            $(".title_right a").click(function (e) {
+                e.preventDefault();
+
+                const $this = $(this);
+                const $count = $this.find(".count");
+                const baseCount = parseInt($count.data("base"));
+                const currentCount = parseInt($count.text());
+                const $icon = $this.find("img");
+                const isHeart = $icon.hasClass("icon_heart");
+
+                if ($this.hasClass("active")) {
+                    $count.text(baseCount);
+                    $this.removeClass("active");
+
+                    if (isHeart) {
+                        $icon.attr("src", "./img/s4_icon2.png");
+                    }
+
+                } else {
+                    $count.text(baseCount + 1);
+                    $this.addClass("active");
+
+                    if (isHeart) {
+                        $icon.attr("src", "./img/s4_icon2_hover.png");
+                    }
+                }
+            });
+        });
+    </script>
+    <!-- s4  -->
+    <script>
+        $(function () {
+            $('a[href*="#"]:not([href="#"])').click(function () {
+                if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+                    var target = $(this.hash);
+                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                    if (target.length) {
+                        $('html, body').animate({
+                            scrollTop: target.offset().top
+                        }, 500);//움직이는 시간 조정
+                        return false;
+                    }
+                }
+            });
+        });
+    </script>
+    <!-- top -->
+
+</body>
+
+</html>
