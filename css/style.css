@@ -1581,7 +1581,7 @@ body {
     font-size: 12px;
   }
       .cafe_wrap h3 {
-        left: 19%;
+        left: 22%;
     }
     .cafe_map a img{
         width: 70%;
@@ -1640,11 +1640,21 @@ body {
         left: 30%;
     }
 }
+@media (max-width: 450px) {
+    .cafe_wrap h3 {
+        top: 0;
+        left: 17%;
+        font-size: 14.5px;
+    }
+}
 @media (max-width: 400px) {
     .cafe_wrap{
         width: 100%;
         padding: 0;
         margin: 0;
+    }
+    .cafe_wrap h3 {
+        left: 12%;
     }
     .cafe_inner{
         width: 100%;
@@ -1678,6 +1688,15 @@ body {
         left: 30%;
     }
 }
+@media (max-width: 364px){
+    .cafe_wrap h3{
+        font-size: 12px;
+        left: 16%;
+    }
+    .button{
+        left: 28%;
+    }
+}
 @media (max-width: 350px) {
     .cafe_wrap h3{
         font-size: 13px;
@@ -1686,6 +1705,7 @@ body {
         margin-left: -30px;
         margin-top: -15px;
         padding-right: 0px;
+        left: 21%;
     }
     .cafe_map a img{
         width: 60%;
@@ -1713,7 +1733,7 @@ body {
         top: -50px;
     }
     .button{
-        left: 27%;
+        left: 29%;
     }
 }
 @media (max-width: 320px) {
